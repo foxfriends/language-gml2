@@ -1,0 +1,12 @@
+'scopeName': 'source.yy'
+'fileTypes': [
+  'yy'
+  'yyp'
+]
+'name': 'YY Config'
+'patterns': [
+  {
+    'name': 'source.json.yy'
+    'include': 'source.json'
+  }
+]

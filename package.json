@@ -1,0 +1,16 @@
+{
+  "name": "language-gml2",
+  "main": "./lib/language-gml2",
+  "version": "0.0.0",
+  "description": "GML 2 syntax highlighting",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "language-gml2:toggle"
+  },
+  "repository": "https://github.com/OinkIguama/language-gmlpp",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {}
+}
