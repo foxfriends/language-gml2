@@ -1,7 +1,7 @@
 {
   "name": "language-gml2",
   "main": "./lib/language-gml2",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "GML 2 syntax highlighting",
   "keywords": [],
   "activationCommands": {
