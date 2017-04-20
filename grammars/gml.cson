@@ -56,20 +56,27 @@
   'constants':
     'patterns': [
       {
+        'begin': '@"'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.string.verbatim.begin.gml'
+        'end': '"'
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.string.end.gml'
+        'name': 'string.quoted.verbatim.gml'
+      }
+      {
         'begin': '"'
         'beginCaptures':
           '0':
             'name': 'punctuation.definition.string.begin.gml'
-        'end': '"'
+        'end': '$|"'
         'endCaptures':
           '0':
             'name': 'punctuation.definition.string.end.gml'
         'name': 'string.quoted.double.gml'
         'patterns': [
-          {
-            'match': '#'
-            'name': 'constant.character.escape.newline.gml'
-          }
           {
             'match': '\\\\.'
             'name': 'constant.character.escape.gml'
