@@ -1,4 +1,4 @@
-# GML++ for Atom
+# GML2 for Atom
 
 Enable GML syntax highlighting, particularly for GameMaker Studio 2, for .gml
 files.
